@@ -1,0 +1,71 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UA_Client_1500", "UA_Client_1500\UA_Client_1500.csproj", "{4A2B8D64-E86A-4B5C-8880-A0B5E83AA669}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C7D6E117-F203-41F0-AC93-1C8320056787} = {C7D6E117-F203-41F0-AC93-1C8320056787}
+		{9E50B81F-EFF8-469C-8B03-012AF0A89C28} = {9E50B81F-EFF8-469C-8B03-012AF0A89C28}
+		{48FAF8A1-692F-4657-AC6D-B714EA31B8C1} = {48FAF8A1-692F-4657-AC6D-B714EA31B8C1}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dependencies", "Dependencies", "{661E7EA4-E4AF-4856-9FBA-F3EA1DD3561F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Opc.Ua.Client", "Dependencies\Opc.Ua.Client\Opc.Ua.Client.csproj", "{C7D6E117-F203-41F0-AC93-1C8320056787}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9E50B81F-EFF8-469C-8B03-012AF0A89C28} = {9E50B81F-EFF8-469C-8B03-012AF0A89C28}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Opc.Ua.Configuration", "Dependencies\Opc.Ua.Configuration\Opc.Ua.Configuration.csproj", "{5FC1C4A2-D7EC-47AE-80BC-A15A9E34165E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9E50B81F-EFF8-469C-8B03-012AF0A89C28} = {9E50B81F-EFF8-469C-8B03-012AF0A89C28}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Opc.Ua.Core", "Dependencies\Opc.Ua.Core\Opc.Ua.Core.csproj", "{9E50B81F-EFF8-469C-8B03-012AF0A89C28}"
+	ProjectSection(ProjectDependencies) = postProject
+		{48FAF8A1-692F-4657-AC6D-B714EA31B8C1} = {48FAF8A1-692F-4657-AC6D-B714EA31B8C1}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Opc.Ua.Security.Certificates", "Dependencies\Opc.Ua.Security.Certificates\Opc.Ua.Security.Certificates.csproj", "{48FAF8A1-692F-4657-AC6D-B714EA31B8C1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A2B8D64-E86A-4B5C-8880-A0B5E83AA669}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A2B8D64-E86A-4B5C-8880-A0B5E83AA669}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A2B8D64-E86A-4B5C-8880-A0B5E83AA669}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A2B8D64-E86A-4B5C-8880-A0B5E83AA669}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7D6E117-F203-41F0-AC93-1C8320056787}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7D6E117-F203-41F0-AC93-1C8320056787}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7D6E117-F203-41F0-AC93-1C8320056787}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7D6E117-F203-41F0-AC93-1C8320056787}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FC1C4A2-D7EC-47AE-80BC-A15A9E34165E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FC1C4A2-D7EC-47AE-80BC-A15A9E34165E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FC1C4A2-D7EC-47AE-80BC-A15A9E34165E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FC1C4A2-D7EC-47AE-80BC-A15A9E34165E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E50B81F-EFF8-469C-8B03-012AF0A89C28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E50B81F-EFF8-469C-8B03-012AF0A89C28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E50B81F-EFF8-469C-8B03-012AF0A89C28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E50B81F-EFF8-469C-8B03-012AF0A89C28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48FAF8A1-692F-4657-AC6D-B714EA31B8C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48FAF8A1-692F-4657-AC6D-B714EA31B8C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48FAF8A1-692F-4657-AC6D-B714EA31B8C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48FAF8A1-692F-4657-AC6D-B714EA31B8C1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C7D6E117-F203-41F0-AC93-1C8320056787} = {661E7EA4-E4AF-4856-9FBA-F3EA1DD3561F}
+		{5FC1C4A2-D7EC-47AE-80BC-A15A9E34165E} = {661E7EA4-E4AF-4856-9FBA-F3EA1DD3561F}
+		{9E50B81F-EFF8-469C-8B03-012AF0A89C28} = {661E7EA4-E4AF-4856-9FBA-F3EA1DD3561F}
+		{48FAF8A1-692F-4657-AC6D-B714EA31B8C1} = {661E7EA4-E4AF-4856-9FBA-F3EA1DD3561F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E4CFE761-CD69-429D-9851-FCDBD3BC42AC}
+	EndGlobalSection
+EndGlobal

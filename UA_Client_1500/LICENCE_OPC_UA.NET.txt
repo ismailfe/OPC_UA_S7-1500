@@ -1,0 +1,11 @@
+﻿The UA .NET StandardLibrary Stack follows a dual-license:
+  - OPC Foundation Corporate Members: RCL
+  - Everybody else: GPL 2.0
+RCL enables OPC Foundation members to deploy their applications using the software without being required to disclose the application code. Non-members licensed under GPL 2.0 must disclose their application code when using the software.
+
+If OPC Foundation Corporate Membership is terminated, the licence reverts to GPL 2.0 whenever any fixes or updates published on GitHub are applied to the former member’s application. This includes updates acquired by fetching any Git commit made after membership termination or the use of binaries distributed in OPC NuGet packages that were posted after the membership termination date.
+
+Note: Dual license applies to this repository only; GPL 2.0 applies to all other repositories
+
+All samples, the platform layers, and files generated with the ModelCompiler by means of the OPC UA NodeSet are provided under the MIT license.
+
